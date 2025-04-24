@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+.box-void {
+  width: 80px;
+  height: 80px;
+  max-width: 100%;
+}  
+
+.cart { 
+  display: flex; 
+  justify-content: space-around;
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  padding: 20px;    
+} 
+
+.cart-list {
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 800px;
+} 
+
+ .cart-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: aliceblue;
+  padding: 12px;
+  border-radius: 4px;
+}
+ 
+.cart-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.cart-void {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 400px;  
+  margin: 0 auto; 
+} 
+
+.backtohome {
+  margin-top: 10px;
+  background-color: #4a90e2;
+  color: white; 
+  padding: 8px 20px; 
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}   
+
+.cart-item .quantity {
+  background-color: #007bff;
+  color: #eee;
+  border: none;
+  font-size: 1.2rem;
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cart-item h4 {
+  margin: 5px 0;
+}
+
+.quantity-controls  span {
+  margin: 0 10px;
+}
+
+.quantity-controls .subtotal {
+  font-weight: 600;
+  margin:  15px 0;
+}
+
+.cart-item-remove {
+  background-color: rgb(239, 15, 15);
+  color: #fff; 
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: none;
+  margin: 0 0 0 80px;
+}  
+
+.cart-item-image {
+ max-width: 250px; 
+ width: 100%;
+}
+
+.clear-cart {
+  margin: 10px 0; 
+  background-color: rgb(236, 54, 54);
+  color: white;
+  cursor: pointer;
+  padding: 8px 18px;
+  border: none; 
+  border-radius: 4px; 
+}
+.checkout {
+  margin: 10px 0; 
+  background-color: rgb(38, 32, 32);
+  color: white; 
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer;
+} 
+ 
+
+/* Responsive adjustments */
+@media (max-width: 768px) { 
+
+  .search-container {
+    width: 250px; 
+   } 
+
+   .cart-list {
+    justify-content: center;
+   }
+
+}

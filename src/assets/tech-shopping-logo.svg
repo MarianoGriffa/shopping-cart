@@ -1,0 +1,31 @@
+<svg viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del logo -->
+  <defs>
+    <linearGradient id="tech-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4287f5" />
+      <stop offset="100%" stop-color="#25d366" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Circuito del logo -->
+  <path d="M30,10 L50,10 L55,15 L70,15 L70,20 L80,20 L80,30 L90,30 L90,40 L70,40 L70,30 L60,30 L60,25 L50,25 L50,20 L30,20 Z" 
+        fill="none" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Punto de conexión 1 -->
+  <circle cx="30" cy="15" r="3" fill="#4287f5"/>
+  
+  <!-- Punto de conexión 2 -->
+  <circle cx="70" cy="15" r="3" fill="#4287f5"/>
+  
+  <!-- Punto de conexión 3 -->
+  <circle cx="90" cy="40" r="3" fill="#25d366"/>
+  
+  <!-- Texto principal -->
+  <text x="100" y="30" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#2c3e50">TECH</text>
+  <text x="100" y="48" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">SHOPPING</text>
+  
+  <!-- Ícono de carrito estilizado -->
+  <path d="M210,20 L215,20 L220,35 L200,35 L205,20 Z" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+  <circle cx="205" cy="40" r="3" fill="#2c3e50"/>
+  <circle cx="215" cy="40" r="3" fill="#2c3e50"/>
+</svg>
