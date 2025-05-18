@@ -1,17 +1,19 @@
-// export type FormEvent =  React.FormEvent<HTMLAnchorElement>
-export type ChangeEvent =  React.ChangeEvent<HTMLInputElement> 
- 
-//tipos de datos iniciales
-//Products iniciales 
+export type MouseEvent =  React.MouseEvent<HTMLButtonElement>
+export type SubmitEvent =  React.FormEvent<HTMLFormElement>
+export type ChangeEvent =  React.ChangeEvent<HTMLInputElement>  
+export type FocusEvent =   React.FocusEvent<HTMLInputElement>  
+                          
+//tipos de datos iniciales 
+//Products iniciales  
 export interface CartItem  { 
   id: number; 
-  name: string;   
+  name: string;     
   category: string;
   price: number;
   quantity: number; 
   stock: number;
   originalStock?: number;
-  image: string; 
+  image: string;  
  }           
   
  //Datos de entrada de mi State 
@@ -59,6 +61,16 @@ export interface ShoppingCartContextType {
 export type Category = 'all' | 'laptop' | 'smartphone' | 'keyboard' | string; 
      
  
-
-
+// // Define the FormData interface to match what comes from InputForm
+// export interface FormData {
+//   firstName: string;
+//   lastName: string;
+//   email: string;
+//   address: string;
+//   city: string;
+//   postalCode: string;
+//   cardNumber: string;
+//   expiryDate: string;
+//   cvv: string; 
+// }
   

@@ -35,7 +35,7 @@ export const ShoppingCartList = ()  => {
           <img 
             src={product.image} 
             className="product-image"
-            alt={product.name} 
+            alt={product.name}  
           /> 
         </div>
         <div className="product-details">

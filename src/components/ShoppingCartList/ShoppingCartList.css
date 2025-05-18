@@ -1,7 +1,7 @@
 .products-section {
-  padding: 20px;
+  padding: 0 20px 60px 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
 .products-title {
@@ -25,8 +25,8 @@
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: white;
-}
+  /* background-color: white; */
+} 
 
 .product-card:hover {
   transform: translateY(-5px);
@@ -34,13 +34,13 @@
 }
 
 .product-image-container {
-  height: 250px; 
+  height: 220px;  
   overflow: hidden;
   display: flex;  
   align-items: center;
   justify-content: center;
-  background-color: #f8f8f8;
-}
+  /* background-color: #f8f8f8; */
+} 
 
 .product-image {
   max-width: 100%;

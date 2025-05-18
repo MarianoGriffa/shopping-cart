@@ -3,16 +3,15 @@ import { useShoppingCart } from '../../context/ShoppingCartContext';
 import { ScrollToTopButton } from '../../components';
   
 import '../ShoppingCart/ShoppingCart.css';  
- 
- 
+
  export const ShoppingCart = ( ) => {
   const { state, removeCart, clearCart, updateQuantity } = useShoppingCart();
 
   const navigate = useNavigate();   
-  const backToHome = useNavigate();
+  const backToHome = useNavigate(); 
 
-  const handleCheckout = () => navigate("/"); 
-  const handleBackToHome = () => backToHome("/");   
+  const handleCheckout = () => navigate("/checkout"); 
+  const handleBackToHome = () => backToHome("/");    
 
     return (    
     <> 

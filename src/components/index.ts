@@ -6,3 +6,6 @@ export * from './ScrollToTopButton/ScrollToTopButton.tsx';
 export * from './SearchInput/SearchInput.tsx';
 export * from './ShoppingCart/ShoppingCart.tsx';
 export * from './ShoppingCartList/ShoppingCartList.tsx'; 
+export * from './Checkout/Checkout.tsx';
+export * from './Checkout/CustomForm.tsx';
+export * from './Checkout/CustomInput.tsx';

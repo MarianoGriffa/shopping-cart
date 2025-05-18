@@ -8,7 +8,7 @@ export const productList: CartItem[] = [
     stock: 1,
     category: "Laptop",
     price: 999.99,
-    image: "/img/lenovo14.jpg",
+    image: "/img/lenovo14.webp",
   }, 
   {
     id: 2,
@@ -17,8 +17,8 @@ export const productList: CartItem[] = [
     stock: 5,
     category: "Smartphone",
     price: 699.99, 
-    image: "/img/iphone_13.jpg",
-  }, 
+    image: "/img/iphone_13.webp",
+  },   
   {
     id: 3,
     name: "Smartphone Samsung",
@@ -26,8 +26,8 @@ export const productList: CartItem[] = [
     stock: 4,
     category: "Smartphone",
     price: 699.99,
-    image: "/img/samsung-galaxy-note-4.png",
-  }, 
+    image: "/img/samsung-galaxy.webp",
+  },  
   { 
     id: 4,
     name: "Keyboard Huy",  
@@ -44,8 +44,8 @@ export const productList: CartItem[] = [
     stock: 5,
     category: "Laptop",
     price: 999.99,  
-    image: "/img/laptop_1.jpg",
-  }, 
+    image: "/img/asus_14.webp",
+  },    
   {
     id: 6,
     name: "Smartphone Xiaomi",
@@ -53,7 +53,7 @@ export const productList: CartItem[] = [
     stock: 2,
     category: "Smartphone",
     price: 699.99,
-    image: "/img/xiaomi.png", 
+    image: "/img/xiaomi.webp", 
   }, 
   {
     id: 7,
@@ -62,7 +62,7 @@ export const productList: CartItem[] = [
     stock: 4,
     category: "Keyboard",
     price: 59.99,
-    image: "/img/keyboard_2.jpg",
+    image: "/img/keyboard_2.webp",
   },
   { 
     id: 8,
@@ -73,4 +73,4 @@ export const productList: CartItem[] = [
     price: 59.99,
     image: "/img/keyboard_3.webp", 
   }, 
-];
+]; 
